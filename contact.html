@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href ="style.css">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" type ="text/css">
+</head>
+<body>
+    <div class = "container">
+        <div class = "sidebar">
+            <nav>
+            <ul>
+                <li><a href = "/PortFolio/index.html">Home</a></li>
+                <li><a href = "/PortFolio/intro.html">My Intro</a></li>
+                <li><a href = "/PortFolio/service.html">Services</a></li>
+                <li><a href = "/PortFolio/cv.html">CV</a></li>
+                <li><a href = "/PortFolio/contact.html">Contact Me</a></li>
+            </ul></nav>
+        </div>
+        <div class = "main">
+            <div class = "hamburger">
+                <p class="open" >   <i class="fa-regular fa-file-lines fa-2x" ></i> </p>
+                 <p class = "close" >  <i class="fa-sharp fa-solid fa-xmark fa-2x"></i></p>
+               </div>
+            <div class ="contactForm">
+            <h2>Contact Me for Work and General Enquiries</h2>
+            <form>
+                <div class="form-group">
+                    <label for="userEmail">Name</label>
+                    <input type="email" class="form-control" id="userName" aria-describedby="emailHelp" placeholder="Enter Name">
+                  </div>
+                <div class="form-group">
+                  <label for="userEmail">Email address</label>
+                  <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                  <p>We'll never share your email and Phone Number with anyone else.</p>
+                </div>
+                <div class="form-group">
+                  <label for="userPhone">Phone Number</label>
+                  <input type="number" class="form-control" id="userPhone" placeholder="Enter Phone Number">
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+              </div>
+        </div>
+    </div>
+    <script src = "index.js"></script>
+</body>
+</html>
